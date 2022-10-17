@@ -6,6 +6,8 @@
 
 Implementação de um app simples, utilizando as principais bibliotecas utilizadas no desenvolvimento android atualmente e sempre buscando novos aprendizados.
 
+* Adicionar a API_KEY nas interfaces de requisição para o funcionamento das api's *
+
 Artefatos utilizados:
 - ☑️Room 
 - ☑️Koin 

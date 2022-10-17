@@ -9,8 +9,8 @@ import retrofit2.http.Query
 interface ICardApi {
 
     @Headers(
-        "x-rapidapi-host:omgvamp-hearthstone-v1.p.rapidapi.com",
-        "x-rapidapi-key:c39d3e2b17msh2363b2659b59d55p1e4a0djsnbdb88c7e5cb3"
+        "",
+        ""
     )
     @GET("cards")
     suspend fun getList(
