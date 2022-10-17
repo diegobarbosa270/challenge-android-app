@@ -9,7 +9,7 @@ class HomeUseCase(private val homeRepository: IHomeRepository) {
         val result = homeRepository.getCardList()
 
         if (result.isNotEmpty()) {
-            return result
+            return result.subList(0, 50)
         }
         return emptyList()
     }
