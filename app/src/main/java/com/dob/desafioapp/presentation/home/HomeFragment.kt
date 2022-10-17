@@ -58,7 +58,7 @@ class HomeFragment : Fragment() {
     private fun initObserver() {
         homeViewModel.resultList.observe(viewLifecycleOwner) {
             binding.progressBar.visibility = View.GONE
-            adapterCards.submitList(it.subList(0, 50))
+            adapterCards.submitList(it)
         }
     }
 
