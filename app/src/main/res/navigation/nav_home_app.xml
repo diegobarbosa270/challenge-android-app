@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home_app"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.dob.desafioapp.presentation.home.HomeFragment"
+        tools:layout="@layout/fragment_home"
+        android:label="Home Screen" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.dob.desafioapp.presentation.detail.DetailFragment"
+        tools:layout="@layout/fragment_detail"
+        android:label="Detail Screen" >
+        <argument
+            android:name="card"
+            app:argType="com.dob.desafioapp.domain.entity.Card" />
+    </fragment>
+</navigation>
