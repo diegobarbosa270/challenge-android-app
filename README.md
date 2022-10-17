@@ -4,7 +4,7 @@
 
 ## 📑 Sobre o projeto
 
-Implementação de um app simples, 
+Implementação de um app simples, utilizando as principais bibliotecas utilizadas no desenvolvimento android atualmente e sempre buscando novos aprendizados.
 
 Artefatos utilizados:
 - ☑️Room 
